@@ -1,7 +1,7 @@
 import os 
 from pathlib import Path
 import logging
-#logging configuration
+#logging configuration with time and date 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s}]: %(message)s:')
 
 list_of_files=[
@@ -10,7 +10,7 @@ list_of_files=[
     "src/prompt.py",
     "env",
     "requirements.txt",
-    "setup.py",
+    "setup.py", 
     "app.py",
     "research/trials.ipynb",
     "test.py"
