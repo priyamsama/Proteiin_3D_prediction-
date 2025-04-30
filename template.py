@@ -8,7 +8,7 @@ list_of_files=[
     "src/_init_.py",
     "src/helper.py",
     "src/prompt.py",
-    "env",
+    ".env",
     "requirements.txt",
     "setup.py", 
     "app.py",
